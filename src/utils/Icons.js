@@ -1,0 +1,126 @@
+import React from 'react';
+import {Image} from 'react-native';
+import tw from 'twrnc';
+
+/*ICONS*/
+import IconFAW5 from 'react-native-vector-icons/FontAwesome5';
+import IconFAW from 'react-native-vector-icons/FontAwesome';
+import IconMI from 'react-native-vector-icons/MaterialIcons';
+import IconMCI from 'react-native-vector-icons/MaterialCommunityIcons';
+import IconANT from 'react-native-vector-icons/AntDesign';
+import IconOCT from 'react-native-vector-icons/Octicons';
+import IconION from 'react-native-vector-icons/Ionicons';
+import IconSLI from 'react-native-vector-icons/SimpleLineIcons';
+import IconFTO from 'react-native-vector-icons/Fontisto';
+import IconEn from 'react-native-vector-icons/Entypo';
+import IconFTH from 'react-native-vector-icons/Feather';
+
+export const usersIcon = <IconFAW name="users" size={24} color={'#333'}/>;
+export const handsIcon = <IconFAW name="handshake-o" size={24} color={'#333'}/>;
+export const moneyIcon = <IconFAW name="money" size={18} color={'#007ee7'}/>;
+export const buildIcon = <IconFAW name="building-o" size={18} color={'#007ee7'}/>;
+export const townIcon = <IconANT name="home" size={24} color={'#007ee7'}/>;
+export const idUserIcon = <IconANT name="idcard" size={24} color={'#333'}/>;
+export const phoneIcon = <IconANT name="phone" size={24} color={'#333'}/>;
+export const homeIcon = <IconANT name="home" size={18} color={'#007ee7'}/>;
+export const carIcon = <IconANT name="car" size={18} color={'#007ee7'}/>;
+export const deleteIcon = <IconANT name="delete" size={22} color={'red'}/>;
+export const passwordIcon = <IconMCI name="form-textbox-password" size={24} color={'#333'}/>;
+export const myTripsIcon = <IconMCI name="layers-triple-outline" size={24} color={'gray'}/>;
+export const monthIcon = <IconMCI name="calendar-month-outline" size={28} color={'gray'}/>;
+export const loginIcon = <IconMCI name="login-variant" size={24} color={'white'}/>;
+export const build_Icon = <IconMCI name="office-building-cog-outline" size={28} color={'white'}/>;
+export const userIcon = <IconANT name="user" size={24} color={'#333'}/>;
+export const emailIcon = <IconFTO name="email" size={24} color={'#333'}/>;
+export const emailIcon_2 = <IconFTO name="email" size={20} color={'#fff'}/>;
+export const celIcon = <IconION name="ios-phone-portrait-outline" size={24} color={'#333'}/>;
+export const hidePwdIcon = <IconION name="eye-off-outline" size={24} color={'#333'}/>;
+export const showPwdIcon = <IconION name="eye-outline" size={24} color={'#333'}/>;
+export const arrowRRIcon = <IconION name="arrow-forward-circle" size={24} color={'#fff'}/>;
+export const arrowBIcon = <IconION name="arrow-back-circle" size={36} color={'#000'}/>;
+export const checkIcon_ = <IconION name="checkmark-done-sharp" size={18} color={'green'}/>;
+export const closeIcon = <IconION name="close-circle-outline" size={24} color={'red'}/>;
+export const warnIcon = <IconION name="warning-outline" size={24} color={'#ffa44c'}/>;
+export const checkIcon = <IconION name="checkmark-circle-sharp" size={42} color={'red'}/>;
+export const checkModalIcon = <IconION name="checkmark-circle-sharp" size={24} color={'white'}/>;
+export const cancelIcon = <IconMI name="cancel" size={40} color={'red'}/>;
+export const cancelModalIcon = <IconMI name="cancel" size={24} color={'red'}/>;
+export const errorIcon = <IconMI name="error" size={24} color={'red'}/>;
+export const arrowRIcon = <IconMI name="arrow-forward-ios" size={32} color={'#c0c4c1'}/>;
+export const arrowRIcon_1 = <IconMI name="arrow-right" size={28} color={'#333'} style={tw`ml-2`}/>;
+export const arrowRIcon_2 = <IconMI name="arrow-right" size={34} color={mainColor}/>;
+export const arrowLIcon = <IconMI name="arrow-left" size={34} color={mainColor}/>;
+export const arrowUpIcon = <IconMI name="keyboard-arrow-up" size={28} color={'#333'}/>;
+export const arrowDownIcon = <IconMI name="keyboard-arrow-down" size={28} color={'#333'}/>;
+export const bookingsIcon = <IconMCI name="format-list-checkbox" size={28} color={'gray'}/>;
+export const paymentIcon = <IconMCI name="credit-card-check-outline" size={28} color={'gray'}/>;
+export const bellIcon = <IconMCI name="bell-ring-outline" size={28} color={'gray'}/>;
+export const boardIcon = <IconMCI name="bulletin-board" size={28} color={'white'}/>;
+export const sendMailIcon = <IconMCI name="email-send-outline" size={24} color={'white'}/>;
+export const savedIcon = <IconMCI name="content-save-all-outline" size={28} color={'white'}/>;
+export const guestsIcon = <IconION name="person-add-outline" size={28} color={'white'}/>;
+export const calendarIcon = <IconMCI name="calendar-month" size={28} color={'white'}/>;
+export const accountEditIcon = <IconMCI name="account-edit-outline" size={28} color={'white'}/>;
+export const rulesIcon = <IconMCI name="check-decagram-outline" size={18} color={'#0c8478'}/>;
+export const emailSendIcon = <IconMCI name="email-send-outline" size={22} color={'#007ee7'}/>;
+export const accountStatusIcon = <IconFAW5 name="coins" size={28} color={'white'}/>;
+export const storeIcon = <IconMCI name="storefront-outline" size={28} color={'white'}/>;
+export const logoutIcon = <IconMCI name="logout-variant" size={28} color={'white'}/>;
+export const presentIcon = <IconSLI name="present" size={28} color={'gray'}/>;
+export const conditionsIcon = <IconION name="ios-document-text-outline" size={28} color={'gray'}/>;
+export const confirmIcon = <IconEn name="500px-with-circle" size={40} color={'#007ee7'}/>;
+export const downloadIcon = <IconEn name="download" size={20} color={'green'}/>;
+export const checkcircleoIcon = <IconANT name="checkcircleo" size={22} color={'green'}/>;
+export const personalDataIcon = <IconFTH name="user-check" size={18} color={'#007ee7'}/>;
+
+/*IMAGES*/
+import building from '../../assets/img/building.png';
+import logo from '../../assets/img/logo.png';
+import fast from '../../assets/img/fast.jpeg';
+import invite from '../../assets/img/invite.png';
+import invitation from '../../assets/img/invitation.png';
+import addPerson from '../../assets/img/addPerson.png';
+import download from '../../assets/img/download.png';
+import soccer from '../../assets/img/soccer.png';
+import soccer_2 from '../../assets/img/soccer_2.png';
+import football from '../../assets/img/football.png';
+import gym from '../../assets/img/gym.png';
+import pool from '../../assets/img/pool.png';
+import addCar from '../../assets/img/addCar.png';
+import guestList from '../../assets/img/guestList.png';
+import sports from '../../assets/img/sports.png';
+import bank from '../../assets/img/bank.png';
+import paymentOK from '../../assets/img/paymentOK.png';
+import store from '../../assets/img/store.png';
+import car from '../../assets/img/car.png';
+import myBooking from '../../assets/img/myBooking.png';
+import logout from '../../assets/img/logout.png';
+import {mainColor} from './Const';
+
+export const buildingImg = <Image source={building}
+                                  style={{width: '100%', height: 190, resizeMode: 'stretch', opacity: 0.9}}/>;
+export const logoImg = <Image source={logo}
+                              style={{width: '100%', height: 100, resizeMode: 'stretch', opacity: 0.9}}/>;
+
+export const fastImg = <Image source={fast}
+                              style={{width: '100%', height: 210, resizeMode: 'stretch', borderRadius: 9}}/>;
+
+export const inviteImg = <Image source={invite} style={{width: 25, height: 25}}/>;
+export const addPersonImg = <Image source={addPerson} style={{width: 25, height: 25}}/>;
+export const addCarImg = <Image source={addCar} style={{width: 25, height: 25}}/>;
+export const downloadImg = <Image source={download} style={{width: 25, height: 25}}/>;
+export const guestListImg = <Image source={guestList} style={{width: 25, height: 25}}/>;
+export const guestListImg_ = <Image source={guestList} style={{width: 40, height: 40}}/>;
+export const invitationImg = <Image source={invitation} style={{width: 40, height: 40}}/>;
+export const soccerImg = <Image source={soccer} style={{width: 40, height: 40}}/>;
+export const soccer_2Img = <Image source={soccer_2} style={{width: 40, height: 40}}/>;
+export const footballImg = <Image source={football} style={{width: 40, height: 40}}/>;
+export const gymImg = <Image source={gym} style={{width: 40, height: 40}}/>;
+export const poolImg = <Image source={pool} style={{width: 40, height: 40}}/>;
+export const sportsImg = <Image source={sports} style={{width: 40, height: 40}}/>;
+export const storeImg = <Image source={store} style={{width: 40, height: 40}}/>;
+export const carImg = <Image source={car} style={{width: 40, height: 40}}/>;
+export const myBookingImg = <Image source={myBooking} style={{width: 40, height: 40}}/>;
+export const bankImg = <Image source={bank} style={{width: 20, height: 20}}/>;
+export const paymentOKImg = <Image source={paymentOK} style={{width: 20, height: 20}}/>;
+export const logoutImg = <Image source={logout} style={{width: 20, height: 20}}/>;
